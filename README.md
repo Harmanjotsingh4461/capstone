@@ -1,45 +1,87 @@
-# 🛒  Online Store Platform
+StoreBuilder – Online Store Platform
+StoreBuilder is a web-based capstone project developed as part of INFO2300 – Winter 2024. This application empowers users—particularly entrepreneurs—to easily create and manage their own online stores. It includes core features such as store creation, product management, customer interaction via chat, user reviews, and profile management.
 
-**StoreBuilder** is a web-based platform that empowers users to create and manage online stores. Entrepreneurs can build personalized storefronts, list products, interact with customers, and track orders — all in one place.
+This project was designed to demonstrate full integration between a modern React frontend and Firebase services, implementing version control, continuous integration concepts, and a user-friendly experience.
 
-## 🚀 Features
+Purpose
+The main goal of StoreBuilder is to give small business owners or aspiring entrepreneurs a simple platform to:
 
-- 👤 **User Registration & Login**  
-  Secure Firebase Authentication with email/password.
+Build their own branded storefronts
 
-- 🛍️ **Store Management**  
-  Store owners can:
-  - Create, edit, and delete stores
-  - Add and manage products
+Showcase and manage products
 
-- 🛒 **Shopping Cart**  
-  - Customers can browse products and add them to a local cart
-  - View and remove cart items
-  - View total cart value
+Communicate directly with customers
 
-- 💬 **Chat System**  
-  - Customers can start a chat with a store owner
-  - Chat history is saved using Firestore subcollections
+Track orders and reviews
 
-- 🧾 **Reviews**  
-  Customers can leave ratings and comments on products.
+Grow their digital presence independently
 
-- 🔍 **Search Products**  
-  Global product search to discover items across all stores.
+This aligns with course objectives around version control, CI testing, and user acceptance testing.
 
-- 👨‍💼 **Profile Page**  
-  View email and update basic profile details (first name, last name).
+Features Overview
+Secure Authentication via Firebase (email/password)
 
----
+Create/Edit/Delete Stores
 
-## 🛠️ Tech Stack
+Product Management (add, update, remove)
 
-- **Frontend**: React.js + Vite  
-- **Backend**: Firebase Authentication + Firestore Database  
-- **UI Framework**: Ant Design  
-- **Deployment**: Firebase Hosting / Vercel (optional)
+Shopping Cart (add, remove items, view total)
 
----
+Chat with Store Owners (via Firestore subcollections)
 
+Product Reviews with ratings and comments
 
+Global Product Search
 
+User Profile management
+
+Tech Stack
+Layer	Technology
+Frontend	React.js + Vite
+Backend	Firebase (Firestore + Auth)
+UI Framework	Ant Design
+Deployment	Firebase Hosting / Vercel
+Build & Run Instructions
+Prerequisites
+Node.js (v18+)
+
+Firebase project with Firestore and Authentication enabled
+
+Steps
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/Harmanjotsingh4461/capstone2025.git
+
+# Navigate into the frontend directory
+cd capstone2025/frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+🪪 License
+This project uses the MIT License.
+
+Why MIT?
+MIT was selected because it offers maximum flexibility. It allows others to use, modify, and distribute the code with minimal restrictions, making it ideal for educational and open-source collaboration projects like this one.
+
+Issue Tracker
+Visit the GitHub Issues Page to report bugs or request new features.
+
+Project Wiki
+The Wiki contains:
+
+Overview of source control used (Git with GitHub)
+
+Top 3 reasons Git was chosen:
+
+Widely adopted with strong community support
+
+Supports distributed version control and collaboration
+
+Seamlessly integrates with CI/CD tools and platforms
+
+Let me know if you'd like this version added directly into your README on the Canvas, or if you want help with the next part: the testing documentation (Part 2f/g/h).
