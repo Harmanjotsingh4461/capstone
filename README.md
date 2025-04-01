@@ -52,7 +52,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/Harmanjotsingh4461/capstone2025.git
+git clone https://github.com/Harmanjotsingh4461/capstone.git
 
 # Navigate into the frontend directory
 cd capstone2025/frontend
